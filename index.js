@@ -34,7 +34,7 @@ app.use(cors());
 app.use(express.json());
 
 // Serve activity images
-app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use('/images', express.static(path.join(__dirname, 'Images')));
 
 // Store orders temporarily in memory
 //let orders = [];
