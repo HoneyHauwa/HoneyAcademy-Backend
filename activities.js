@@ -2,7 +2,7 @@ let activitiesArray = [
     {
         id: 1,
         title: "Coders Club",
-        category: "Technology",
+        category: "STEM",
         description: "Explore coding and create your first projects.",
         price: 750,
         duration: "1 hour",
@@ -12,7 +12,7 @@ let activitiesArray = [
     {
         id: 2,
         title: "Creative Art Studio",
-        category: "Arts",
+        category: "Creative Arts",
         description: "Paint, draw and bring imaginative ideas to life.",
         price: 500,
         duration: "1.5 hours",
@@ -22,7 +22,7 @@ let activitiesArray = [
     {
         id: 3,
         title: "Music & Rhythm",
-        category: "Music",
+        category: "Creative Arts",
         description: "Discover rhythm, music and creative expression.",
         price: 600,
         duration: "1 hour",
@@ -32,7 +32,7 @@ let activitiesArray = [
     {
         id: 4,
         title: "Football Club",
-        category: "Sports",
+        category: "Recreation",
         description: "Build teamwork and football skills while having fun.",
         price: 450,
         duration: "1 hour",
@@ -42,7 +42,7 @@ let activitiesArray = [
     {
         id: 5,
         title: "Science Lab",
-        category: "Science",
+        category: "STEM",
         description: "Discover science through exciting experiments and hands-on activities.",
         price: 800,
         duration: "1.5 hours",
@@ -52,7 +52,7 @@ let activitiesArray = [
     {
         id: 6,
         title: "Dance & Movement",
-        category: "Dance",
+        category: "Creative Arts",
         description: "Learn fun dance routines and express yourself through movement.",
         price: 550,
         duration: "1 hour",
@@ -62,7 +62,7 @@ let activitiesArray = [
     {
         id: 7,
         title: "Robotics Workshop",
-        category: "Technology",
+        category: "STEM",
         description: "Build simple robots and explore the basics of robotics.",
         price: 900,
         duration: "2 hours",
@@ -72,7 +72,7 @@ let activitiesArray = [
     {
         id: 8,
         title: "Cooking Club",
-        category: "Cooking",
+        category: "Recreation",
         description: "Prepare simple recipes and discover the joy of cooking.",
         price: 700,
         duration: "1.5 hours",
@@ -82,7 +82,7 @@ let activitiesArray = [
     {
         id: 9,
         title: "Nature & Gardening Club",
-        category: "Nature",
+        category: "Recreation",
         description: "Explore plants, grow seeds and learn how to care for nature.",
         price: 400,
         duration: "1 hour",
@@ -92,7 +92,7 @@ let activitiesArray = [
     {
         id: 10,
         title: "Drama & Storytelling",
-        category: "Performing Arts",
+        category: "Creative Arts",
         description: "Create characters, tell stories and build confidence through drama.",
         price: 650,
         duration: "1.5 hours",
