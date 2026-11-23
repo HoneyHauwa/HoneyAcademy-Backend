@@ -1,3 +1,4 @@
+
 let activitiesArray = [
     {
         id: 1,
@@ -6,6 +7,7 @@ let activitiesArray = [
         description: "Explore coding and create your first projects.",
         price: 750,
         duration: "1 hour",
+        location: "Computer Lab",
         image: "coding.jpg",
         availableInventory: 12
     },
@@ -16,6 +18,7 @@ let activitiesArray = [
         description: "Paint, draw and bring imaginative ideas to life.",
         price: 500,
         duration: "1.5 hours",
+        location: "Art Studio",
         image: "art.jpg",
         availableInventory: 10
     },
@@ -26,6 +29,7 @@ let activitiesArray = [
         description: "Discover rhythm, music and creative expression.",
         price: 600,
         duration: "1 hour",
+        location: "Music Room",
         image: "music.jpg",
         availableInventory: 10
     },
@@ -36,6 +40,7 @@ let activitiesArray = [
         description: "Build teamwork and football skills while having fun.",
         price: 450,
         duration: "1 hour",
+        location: "Sports Field",
         image: "football.jpg",
         availableInventory: 22
     },
@@ -46,6 +51,7 @@ let activitiesArray = [
         description: "Discover science through exciting experiments and hands-on activities.",
         price: 800,
         duration: "1.5 hours",
+        location: "Science Laboratory",
         image: "science.jpg",
         availableInventory: 10
     },
@@ -56,6 +62,7 @@ let activitiesArray = [
         description: "Learn fun dance routines and express yourself through movement.",
         price: 550,
         duration: "1 hour",
+        location: "Dance Studio",
         image: "dance.jpg",
         availableInventory: 12
     },
@@ -66,6 +73,7 @@ let activitiesArray = [
         description: "Build simple robots and explore the basics of robotics.",
         price: 900,
         duration: "2 hours",
+        location: "Innovation Lab",
         image: "robotics.jpg",
         availableInventory: 10
     },
@@ -76,6 +84,7 @@ let activitiesArray = [
         description: "Prepare simple recipes and discover the joy of cooking.",
         price: 700,
         duration: "1.5 hours",
+        location: "Kitchen Studio",
         image: "cooking.jpg",
         availableInventory: 10
     },
@@ -86,6 +95,7 @@ let activitiesArray = [
         description: "Explore plants, grow seeds and learn how to care for nature.",
         price: 400,
         duration: "1 hour",
+        location: "School Garden",
         image: "gardening.jpg",
         availableInventory: 12
     },
@@ -96,6 +106,7 @@ let activitiesArray = [
         description: "Create characters, tell stories and build confidence through drama.",
         price: 650,
         duration: "1.5 hours",
+        location: "Performing Arts Room",
         image: "drama.jpg",
         availableInventory: 15
     }
