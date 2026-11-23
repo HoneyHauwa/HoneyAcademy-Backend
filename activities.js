@@ -1,7 +1,7 @@
 let activitiesArray = [
     {
         id: 1,
-        title: "Little Coders Club",
+        title: "Coders Club",
         category: "Technology",
         description: "Explore coding and create your first projects.",
         price: 750,
@@ -31,7 +31,7 @@ let activitiesArray = [
     },
     {
         id: 4,
-        title: "Junior Football",
+        title: "Football Club",
         category: "Sports",
         description: "Build teamwork and football skills while having fun.",
         price: 450,
@@ -41,7 +41,7 @@ let activitiesArray = [
     },
     {
         id: 5,
-        title: "Junior Science Lab",
+        title: "Science Lab",
         category: "Science",
         description: "Discover science through exciting experiments and hands-on activities.",
         price: 800,
@@ -71,7 +71,7 @@ let activitiesArray = [
     },
     {
         id: 8,
-        title: "Junior Cooking Club",
+        title: "Cooking Club",
         category: "Cooking",
         description: "Prepare simple recipes and discover the joy of cooking.",
         price: 700,
