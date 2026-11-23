@@ -1,3 +1,4 @@
+
 require('dotenv').config();
 
 const { MongoClient } = require('mongodb');
@@ -10,15 +11,25 @@ async function seedDatabase() {
         await client.connect();
 
         const db = client.db('HoneyAcademy');
-
         const collection = db.collection('activities');
 
-        await collection.insertMany(activities);
+        const operations = activities.map(activity => ({
+            updateOne: {
+                filter: { id: activity.id },
+                update: { $set: activity },
+                upsert: true
+            }
+        }));
 
-        console.log('Activities successfully added to MongoDB!');
+        const result = await collection.bulkWrite(operations);
+
+        console.log('Activities successfully updated!');
+        console.log('Matched:', result.matchedCount);
+        console.log('Modified:', result.modifiedCount);
+        console.log('Inserted:', result.upsertedCount);
 
     } catch (error) {
-        console.error(error);
+        console.error('Database update failed:', error);
     } finally {
         await client.close();
     }
