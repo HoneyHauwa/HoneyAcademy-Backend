@@ -7,7 +7,7 @@ let activitiesArray = [
         price: 750,
         duration: "1 hour",
         image: "coding.jpg",
-        availableInventory: 10
+        availableInventory: 12
     },
     {
         id: 2,
@@ -37,7 +37,7 @@ let activitiesArray = [
         price: 450,
         duration: "1 hour",
         image: "football.jpg",
-        availableInventory: 10
+        availableInventory: 22
     },
     {
         id: 5,
@@ -57,7 +57,7 @@ let activitiesArray = [
         price: 550,
         duration: "1 hour",
         image: "dance.jpg",
-        availableInventory: 10
+        availableInventory: 12
     },
     {
         id: 7,
@@ -87,7 +87,7 @@ let activitiesArray = [
         price: 400,
         duration: "1 hour",
         image: "gardening.jpg",
-        availableInventory: 10
+        availableInventory: 12
     },
     {
         id: 10,
@@ -97,7 +97,7 @@ let activitiesArray = [
         price: 650,
         duration: "1.5 hours",
         image: "drama.jpg",
-        availableInventory: 10
+        availableInventory: 15
     }
 ];
 
