@@ -7,8 +7,9 @@ let activitiesArray = [
         description: "Explore coding and create your first projects.",
         price: 750,
         duration: "1 hour",
-        location: "Computer Lab",
+        location: "Innovation Lab",
         image: "coding.jpg",
+        teacherId: 2,
         availableInventory: 12
     },
     {
@@ -18,8 +19,9 @@ let activitiesArray = [
         description: "Paint, draw and bring imaginative ideas to life.",
         price: 500,
         duration: "1.5 hours",
-        location: "Art Studio",
+        location: "Performing Arts Room",
         image: "art.jpg",
+        teacherId: 1,
         availableInventory: 10
     },
     {
@@ -29,8 +31,9 @@ let activitiesArray = [
         description: "Discover rhythm, music and creative expression.",
         price: 600,
         duration: "1 hour",
-        location: "Music Room",
+        location: "Performing Arts Room",
         image: "music.jpg",
+        teacherId: 1,
         availableInventory: 10
     },
     {
@@ -42,6 +45,7 @@ let activitiesArray = [
         duration: "1 hour",
         location: "Sports Field",
         image: "football.jpg",
+        teacherId: 3,
         availableInventory: 22
     },
     {
@@ -53,6 +57,7 @@ let activitiesArray = [
         duration: "1.5 hours",
         location: "Science Laboratory",
         image: "science.jpg",
+        teacherId: 5,
         availableInventory: 10
     },
     {
@@ -62,8 +67,9 @@ let activitiesArray = [
         description: "Learn fun dance routines and express yourself through movement.",
         price: 550,
         duration: "1 hour",
-        location: "Dance Studio",
+        location: "Performing Arts Room",
         image: "dance.jpg",
+        teacherId: 1,
         availableInventory: 12
     },
     {
@@ -75,6 +81,7 @@ let activitiesArray = [
         duration: "2 hours",
         location: "Innovation Lab",
         image: "robotics.jpg",
+        teacherId: 2,
         availableInventory: 10
     },
     {
@@ -86,6 +93,7 @@ let activitiesArray = [
         duration: "1.5 hours",
         location: "Kitchen Studio",
         image: "cooking.jpg",
+        teacherId: 6,
         availableInventory: 10
     },
     {
@@ -97,6 +105,7 @@ let activitiesArray = [
         duration: "1 hour",
         location: "School Garden",
         image: "gardening.jpg",
+        teacherId: 4,
         availableInventory: 12
     },
     {
@@ -108,6 +117,7 @@ let activitiesArray = [
         duration: "1.5 hours",
         location: "Performing Arts Room",
         image: "drama.jpg",
+        teacherId: 7,
         availableInventory: 15
     }
 ];
