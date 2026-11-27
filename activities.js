@@ -10,7 +10,7 @@ let activitiesArray = [
         location: "Innovation Lab",
         image: "coding.jpg",
         teacherId: 2,
-        availableInventory: 12
+        availableInventory: 5
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ let activitiesArray = [
         location: "Performing Arts Room",
         image: "art.jpg",
         teacherId: 1,
-        availableInventory: 10
+        availableInventory: 5
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ let activitiesArray = [
         location: "Performing Arts Room",
         image: "music.jpg",
         teacherId: 1,
-        availableInventory: 10
+        availableInventory: 5
     },
     {
         id: 4,
@@ -46,7 +46,7 @@ let activitiesArray = [
         location: "Sports Field",
         image: "football.jpg",
         teacherId: 3,
-        availableInventory: 22
+        availableInventory: 5
     },
     {
         id: 5,
@@ -58,7 +58,7 @@ let activitiesArray = [
         location: "Science Laboratory",
         image: "science.jpg",
         teacherId: 5,
-        availableInventory: 10
+        availableInventory: 5
     },
     {
         id: 6,
@@ -70,7 +70,7 @@ let activitiesArray = [
         location: "Performing Arts Room",
         image: "dance.jpg",
         teacherId: 1,
-        availableInventory: 12
+        availableInventory: 5
     },
     {
         id: 7,
@@ -82,7 +82,7 @@ let activitiesArray = [
         location: "Innovation Lab",
         image: "robotics.jpg",
         teacherId: 2,
-        availableInventory: 10
+        availableInventory: 5
     },
     {
         id: 8,
@@ -94,7 +94,7 @@ let activitiesArray = [
         location: "Kitchen Studio",
         image: "cooking.jpg",
         teacherId: 6,
-        availableInventory: 10
+        availableInventory: 5
     },
     {
         id: 9,
@@ -106,7 +106,7 @@ let activitiesArray = [
         location: "School Garden",
         image: "gardening.jpg",
         teacherId: 4,
-        availableInventory: 12
+        availableInventory: 5
     },
     {
         id: 10,
@@ -118,7 +118,7 @@ let activitiesArray = [
         location: "Performing Arts Room",
         image: "drama.jpg",
         teacherId: 7,
-        availableInventory: 15
+        availableInventory: 5
     }
 ];
 
