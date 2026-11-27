@@ -45,6 +45,42 @@ app.use((req, res, next) => {
     next();
 });
 
+// Get all teachers
+app.get('/teachers', async (req, res) => {
+    try {
+        const teachers = await db.collection('teachers').find({}).toArray();
+
+        res.json(teachers);
+
+    } catch (error) {
+        console.error('Error retrieving teachers:', error);
+
+        res.status(500).json({
+            message: 'Failed to retrieve teachers.'
+        });
+    }
+});
+
+// Get activities by teacher
+app.get('/teachers/:id/activities', async (req, res) => {
+    try {
+        const teacherId = Number(req.params.id);
+
+        const activities = await db.collection('activities').find({
+            teacherId: teacherId
+        }).toArray();
+
+        res.json(activities);
+
+    } catch (error) {
+        console.error('Error retrieving teacher activities:', error);
+
+        res.status(500).json({
+            message: 'Failed to retrieve teacher activities.'
+        });
+    }
+});
+
 // Get all activities
 app.get('/activities', async (req, res) => {
     try {
